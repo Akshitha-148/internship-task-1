@@ -11,6 +11,7 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
+    
 
 </head>
 
@@ -69,137 +70,264 @@
 
     <section id="about">
 
-        <h2>About Me</h2>
+    <h2>About Me</h2>
 
-        <article>
+    <div class="about-container">
 
-            <p>
-                I am a Computer Science and Engineering student
-                interested in software development and web
-                technologies.
-            </p>
+        <!-- Image on the left -->
+        <div class="about-image">
+            <img src="images/akshitha.jpeg" alt="My Profile Photo">
+        </div>
+        <div class="about-text">
 
-            <p>
-                I am continuously improving my programming,
-                database and web development skills through
-                academic projects and internships.
-            </p>
+    <p>
+        I am a passionate B.Tech Computer Science and
+        Engineering student with a strong interest in
+        software development, web technologies, and
+        problem-solving. I enjoy learning new technologies
+        and applying my knowledge through practical
+        projects and real-world applications.
+    </p>
 
-        </article>
+    <p>
+        My technical interests include HTML, CSS,
+        JavaScript, Python, PHP, MySQL, and Git & GitHub.
+        Through academic projects and internship activities,
+        I am continuously developing my programming,
+        database management, and web development skills.
+    </p>
 
-    </section>
+    <p>
+        I believe in continuous learning and improving my
+        technical abilities by working on meaningful
+        projects. My goal is to build a strong foundation
+        in software development and gain practical industry
+        experience while contributing effectively to
+        professional projects and development teams.
+    </p>
+
+</div>
+
+        <!-- About text on the right -->
+        
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+        
 
 
     <!-- SKILLS -->
+     <section id="skills">
 
-    <section id="skills">
+    <h2>My Skills</h2>
 
-        <h2>My Skills</h2>
+    <ul>
 
-        <ul>
+        <li>
+            <img src="images/skills/html.png" alt="HTML5">
+            <span>HTML5</span>
+        </li>
 
-            <li>HTML</li>
+        <li>
+            <img src="images/skills/css.png" alt="CSS3">
+            <span>CSS3</span>
+        </li>
 
-            <li>CSS</li>
+        <li>
+            <img src="images/skills/javascript.png" alt="JavaScript">
+            <span>JavaScript</span>
+        </li>
 
-            <li>JavaScript</li>
+        <li>
+            <img src="images/skills/python.png" alt="Python">
+            <span>Python</span>
+        </li>
 
-            <li>Python</li>
+        <li>
+            <img src="images/skills/php.png" alt="PHP">
+            <span>PHP</span>
+        </li>
 
-            <li>PHP</li>
+        <li>
+            <img src="images/skills/mysql.png" alt="MySQL">
+            <span>MySQL</span>
+        </li>
 
-            <li>MySQL</li>
+        <li>
+            <img src="images/skills/github.png" alt="GitHub">
+            <span>Git & GitHub</span>
+        </li>
 
-            <li>Git & GitHub</li>
+    </ul>
 
-        </ul>
-
-    </section>
+</section>
 
 
+    
     <!-- EDUCATION -->
+     <section id="education">
 
-    <section id="education">
+    <h2>Education</h2>
 
-        <h2>Education</h2>
+    <table>
 
-        <table>
+        <thead>
 
-            <thead>
+            <tr>
+                <th>Education Level</th>
+                <th>Institution</th>
+                <th>Course / Classes</th>
+                <th>Status</th>
+            </tr>
 
-                <tr>
+        </thead>
 
-                    <th>Qualification</th>
+        <tbody>
 
-                    <th>Course</th>
+            <tr>
+                <td>Primary School</td>
+                <td>Kakatiya Vidhyalayam High School,Kolanoor</td>
+                <td>1st to 4th</td>
+                <td>Completed</td>
+            </tr>
 
-                    <th>Status</th>
+            <tr>
+                <td>Secondary School</td>
+                <td>TSWREIS, Garrepally</td>
+                <td>5th to 10th</td>
+                <td>Completed</td>
+            </tr>
 
-                </tr>
+            <tr>
+                <td>Diploma</td>
+                <td>Dr. B. R. Ambedkar GMR Polytechnic, Karimnagar</td>
+                <td>Diploma</td>
+                <td>Completed</td>
+            </tr>
 
-            </thead>
+            <tr>
+                <td>Bachelor of Technology</td>
+                <td>Vidya Jyothi Institute of Technology</td>
+                <td>Computer Science and Engineering (CSE)</td>
+                <td>Currently Pursuing – 3rd Year</td>
+            </tr>
 
-            <tbody>
+        </tbody>
 
-                <tr>
+    </table>
 
-                    <td>B.Tech</td>
+</section>
 
-                    <td>Computer Science and Engineering</td>
-
-                    <td>Pursuing</td>
-
-                </tr>
-
-            </tbody>
-
-        </table>
-
-    </section>
+    
 
 
     <!-- PROJECTS -->
+     <section id="projects">
 
-    <section id="projects">
-
-        <h2>My Projects</h2>
-
-        <article>
-
-            <h3>Student Management System</h3>
-
-            <p>
-                A database-oriented project for managing
-                student records efficiently.
-            </p>
-
-        </article>
+    <h2>My Projects</h2>
 
 
-        <article>
+    <!-- PROJECT 1 -->
 
-            <h3>File Transfer System Using TCP</h3>
+    <article class="project-card">
 
-            <p>
-                A computer networks project for transferring
-                files between client and server systems.
-            </p>
+        <img src="images/projects/student-management.png"
+             alt="Student Management System">
 
-        </article>
+        <h3>Student Management System</h3>
+
+        <p>
+            A database-oriented application designed to
+            efficiently store, organize, and manage
+            student information.
+        </p>
+
+        <p>
+            The system provides CRUD operations such as
+            adding, viewing, updating, and deleting student
+            records. It uses PHP for backend processing
+            and MySQL for database management.
+        </p>
+
+        <p>
+            <strong>Technologies:</strong>
+            HTML5, CSS3, JavaScript, PHP, MySQL, XAMPP
+        </p>
+
+    </article>
 
 
-        <article>
+    <!-- PROJECT 2 -->
 
-            <h3>Crop Recommendation System</h3>
+    <article class="project-card">
 
-            <p>
-                A machine learning based system for recommending
-                suitable crops using agricultural parameters.
-            </p>
+        <img src="images/projects/file-transfer.png"
+             alt="File Transfer System Using TCP">
 
-        </article>
+        <h3>File Transfer System Using TCP</h3>
 
-    </section>
+        <p>
+            A computer networking project designed to
+            transfer files between a client and server
+            using TCP socket communication.
+        </p>
+
+        <p>
+            The system demonstrates client-server
+            communication, reliable data transmission,
+            socket programming, file handling, and
+            connection error management.
+        </p>
+
+        <p>
+            <strong>Technologies:</strong>
+            Python, TCP/IP, Socket Programming, VS Code
+        </p>
+
+    </article>
+
+
+    <!-- PROJECT 3 -->
+
+    <article class="project-card">
+
+        <img src="images/projects/crop-recommendation.png"
+             alt="Crop Recommendation System">
+
+        <h3>Crop Recommendation System</h3>
+
+        <p>
+            A machine-learning-based system designed to
+            recommend suitable crops based on soil and
+            environmental parameters.
+        </p>
+
+        <p>
+            The system analyzes parameters such as
+            nitrogen, phosphorus, potassium, temperature,
+            humidity, pH value, and rainfall to generate
+            suitable crop recommendations.
+        </p>
+
+        <p>
+            <strong>Technologies:</strong>
+            Python, Machine Learning, Flask, HTML5,
+            CSS3, JavaScript
+        </p>
+
+    </article>
+
+</section>
+
+    
+
+    
+
 
 
     <!-- CONTACT -->

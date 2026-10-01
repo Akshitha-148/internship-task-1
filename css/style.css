@@ -81,14 +81,43 @@ section h2 {
     gap: 15px;
     list-style: none;
 }
-
 #skills li {
     background: #eaf6ff;
-    padding: 15px;
+    padding: 25px 15px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 12px;
+    transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 180px;
+}
+#skills li img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+
     transition: 0.3s;
 }
+
+#skills li span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#skills li:hover {
+    transform: translateY(-8px);
+}
+
+#skills li:hover img {
+    transform: scale(1.1);
+}
+
+
 
 #skills li:hover {
     transform: translateY(-5px);
@@ -177,4 +206,113 @@ footer {
     header h1 {
         font-size: 30px;
     }
+}
+/* =========================
+   ABOUT ME
+========================= */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+
+/* Mobile view */
+
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 220px;
+        height: 220px;
+    }
+
+}
+/* =========================
+   PROJECTS
+========================= */
+
+.project-card {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f8fbff;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #e1e8ef;
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    color: #0077b6;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-card img {
+    transition: 0.3s;
+}
+
+.project-card:hover img {
+    transform: scale(1.02);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #0077b6;
+    color: white;
 }
