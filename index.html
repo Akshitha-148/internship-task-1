@@ -11,7 +11,6 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
-    
 
 </head>
 
@@ -40,6 +39,8 @@
 
         <a href="#education">Education</a>
 
+        <a href="#certifications">Certifications</a>
+
         <a href="#projects">Projects</a>
 
         <a href="#contact">Contact</a>
@@ -48,10 +49,12 @@
 
 
     <!-- HOME -->
-     <button onclick="showWelcome()">
-    Welcome
-</button>
-     <section id="home">
+
+    <button onclick="showWelcome()">
+        Welcome
+    </button>
+
+    <section id="home">
 
         <h2>Welcome</h2>
 
@@ -70,387 +73,745 @@
 
     <section id="about">
 
-    <h2>About Me</h2>
+        <h2>About Me</h2>
 
-    <div class="about-container">
+        <div class="about-container">
 
-        <!-- Image on the left -->
-        <div class="about-image">
-            <img src="images/akshitha.jpeg" alt="My Profile Photo">
-        </div>
-        <div class="about-text">
+            <!-- Image on the left -->
 
-    <p>
-        I am a passionate B.Tech Computer Science and
-        Engineering student with a strong interest in
-        software development, web technologies, and
-        problem-solving. I enjoy learning new technologies
-        and applying my knowledge through practical
-        projects and real-world applications.
-    </p>
+            <div class="about-image">
 
-    <p>
-        My technical interests include HTML, CSS,
-        JavaScript, Python, PHP, MySQL, and Git & GitHub.
-        Through academic projects and internship activities,
-        I am continuously developing my programming,
-        database management, and web development skills.
-    </p>
+                <img src="images/akshitha.jpeg"
+                     alt="My Profile Photo">
 
-    <p>
-        I believe in continuous learning and improving my
-        technical abilities by working on meaningful
-        projects. My goal is to build a strong foundation
-        in software development and gain practical industry
-        experience while contributing effectively to
-        professional projects and development teams.
-    </p>
+            </div>
 
-</div>
 
-        <!-- About text on the right -->
-        
+            <!-- About text on the right -->
 
-            
-
-        </div>
-
-    </div>
-
-</section>
-        
-
-
-    <!-- SKILLS -->
-     <section id="skills">
-
-    <h2>My Skills</h2>
-
-    <ul>
-
-        <li>
-            <img src="images/skills/html.png" alt="HTML5">
-            <span>HTML5</span>
-        </li>
-
-        <li>
-            <img src="images/skills/css.png" alt="CSS3">
-            <span>CSS3</span>
-        </li>
-
-        <li>
-            <img src="images/skills/javascript.png" alt="JavaScript">
-            <span>JavaScript</span>
-        </li>
-
-        <li>
-            <img src="images/skills/python.png" alt="Python">
-            <span>Python</span>
-        </li>
-
-        <li>
-            <img src="images/skills/php.png" alt="PHP">
-            <span>PHP</span>
-        </li>
-
-        <li>
-            <img src="images/skills/mysql.png" alt="MySQL">
-            <span>MySQL</span>
-        </li>
-
-        <li>
-            <img src="images/skills/github.png" alt="GitHub">
-            <span>Git & GitHub</span>
-        </li>
-
-    </ul>
-
-</section>
-
-
-    
-    <!-- EDUCATION -->
-     <section id="education">
-
-    <h2>Education</h2>
-
-    <table>
-
-        <thead>
-
-            <tr>
-                <th>Education Level</th>
-                <th>Institution</th>
-                <th>Course / Classes</th>
-                <th>Status</th>
-            </tr>
-
-        </thead>
-
-        <tbody>
-
-            <tr>
-                <td>Primary School</td>
-                <td>Kakatiya Vidhyalayam High School,Kolanoor</td>
-                <td>1st to 4th</td>
-                <td>Completed</td>
-            </tr>
-
-            <tr>
-                <td>Secondary School</td>
-                <td>TSWREIS, Garrepally</td>
-                <td>5th to 10th</td>
-                <td>Completed</td>
-            </tr>
-
-            <tr>
-                <td>Diploma</td>
-                <td>Dr. B. R. Ambedkar GMR Polytechnic, Karimnagar</td>
-                <td>Diploma</td>
-                <td>Completed</td>
-            </tr>
-
-            <tr>
-                <td>Bachelor of Technology</td>
-                <td>Vidya Jyothi Institute of Technology</td>
-                <td>Computer Science and Engineering (CSE)</td>
-                <td>Currently Pursuing – 3rd Year</td>
-            </tr>
-
-        </tbody>
-
-    </table>
-
-</section>
-
-    
-
-
-    <!-- PROJECTS -->
-     <section id="projects">
-
-    <h2>My Projects</h2>
-
-
-    <!-- PROJECT 1 -->
-
-    <article class="project-card">
-
-        <img src="images/projects/student-management.png"
-             alt="Student Management System">
-
-        <h3>Student Management System</h3>
-
-        <p>
-            A database-oriented application designed to
-            efficiently store, organize, and manage
-            student information.
-        </p>
-
-        <p>
-            The system provides CRUD operations such as
-            adding, viewing, updating, and deleting student
-            records. It uses PHP for backend processing
-            and MySQL for database management.
-        </p>
-
-        <p>
-            <strong>Technologies:</strong>
-            HTML5, CSS3, JavaScript, PHP, MySQL, XAMPP
-        </p>
-
-    </article>
-
-
-    <!-- PROJECT 2 -->
-
-    <article class="project-card">
-
-        <img src="images/projects/file-transfer.png"
-             alt="File Transfer System Using TCP">
-
-        <h3>File Transfer System Using TCP</h3>
-
-        <p>
-            A computer networking project designed to
-            transfer files between a client and server
-            using TCP socket communication.
-        </p>
-
-        <p>
-            The system demonstrates client-server
-            communication, reliable data transmission,
-            socket programming, file handling, and
-            connection error management.
-        </p>
-
-        <p>
-            <strong>Technologies:</strong>
-            Python, TCP/IP, Socket Programming, VS Code
-        </p>
-
-    </article>
-
-
-    <!-- PROJECT 3 -->
-
-    <article class="project-card">
-
-        <img src="images/projects/crop-recommendation.png"
-             alt="Crop Recommendation System">
-
-        <h3>Crop Recommendation System</h3>
-
-        <p>
-            A machine-learning-based system designed to
-            recommend suitable crops based on soil and
-            environmental parameters.
-        </p>
-
-        <p>
-            The system analyzes parameters such as
-            nitrogen, phosphorus, potassium, temperature,
-            humidity, pH value, and rainfall to generate
-            suitable crop recommendations.
-        </p>
-
-        <p>
-            <strong>Technologies:</strong>
-            Python, Machine Learning, Flask, HTML5,
-            CSS3, JavaScript
-        </p>
-
-    </article>
-
-</section>
-
-      <!-- CONTACT -->
-
-    <section id="contact">
-
-    <h2>Contact Me</h2>
-
-    <div class="contact-container">
-
-        <div class="contact-info">
-
-            <h3>Let's Connect</h3>
-
-            <p>
-                I would love to hear from you. Whether you have
-                a question, project idea, or internship opportunity,
-                feel free to contact me.
-            </p>
-
-            <div class="contact-details">
+            <div class="about-text">
 
                 <p>
-                    <strong>Email:</strong>
-                    kampelliakshitha19@gmail.com
+                    I am a passionate B.Tech Computer Science and
+                    Engineering student with a strong interest in
+                    software development, web technologies, and
+                    problem-solving. I enjoy learning new technologies
+                    and applying my knowledge through practical
+                    projects and real-world applications.
                 </p>
 
                 <p>
-                    <strong>Phone:</strong>
-                    +91 7396930311
+                    My technical interests include HTML, CSS,
+                    JavaScript, Python, PHP, MySQL, and Git & GitHub.
+                    Through academic projects and internship activities,
+                    I am continuously developing my programming,
+                    database management, and web development skills.
                 </p>
 
                 <p>
-                    <strong>Location:</strong>
-                    Telangana, India
+                    I believe in continuous learning and improving my
+                    technical abilities by working on meaningful
+                    projects. My goal is to build a strong foundation
+                    in software development and gain practical industry
+                    experience while contributing effectively to
+                    professional projects and development teams.
                 </p>
 
             </div>
 
         </div>
 
+    </section>
 
-        <div class="contact-form">
 
-            <form id="contactForm">
+    <!-- SKILLS -->
 
-                <div class="form-group">
+    <section id="skills">
 
-                    <label for="name">Name</label>
+        <h2>My Skills</h2>
 
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your name"
-                        required>
+        <ul>
 
+            <li>
+
+                <img src="images/skills/html.png"
+                     alt="HTML5">
+
+                <span>HTML5</span>
+
+            </li>
+
+
+            <li>
+
+                <img src="images/skills/css.png"
+                     alt="CSS3">
+
+                <span>CSS3</span>
+
+            </li>
+
+
+            <li>
+
+                <img src="images/skills/javascript.png"
+                     alt="JavaScript">
+
+                <span>JavaScript</span>
+
+            </li>
+
+
+            <li>
+
+                <img src="images/skills/python.png"
+                     alt="Python">
+
+                <span>Python</span>
+
+            </li>
+
+
+            <li>
+
+                <img src="images/skills/php.png"
+                     alt="PHP">
+
+                <span>PHP</span>
+
+            </li>
+
+
+            <li>
+
+                <img src="images/skills/mysql.png"
+                     alt="MySQL">
+
+                <span>MySQL</span>
+
+            </li>
+
+
+            <li>
+
+                <img src="images/skills/github.png"
+                     alt="GitHub">
+
+                <span>Git & GitHub</span>
+
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Education Level</th>
+
+                    <th>Institution</th>
+
+                    <th>Course / Classes</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>Primary School</td>
+
+                    <td>
+                        Kakatiya Vidhyalayam High School, Kolanoor
+                    </td>
+
+                    <td>1st to 4th</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Secondary School</td>
+
+                    <td>
+                        TSWREIS, Garrepally
+                    </td>
+
+                    <td>5th to 10th</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Diploma</td>
+
+                    <td>
+                        Dr. B. R. Ambedkar GMR Polytechnic, Karimnagar
+                    </td>
+
+                    <td>Diploma</td>
+
+                    <td>Completed</td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>Bachelor of Technology</td>
+
+                    <td>
+                        Vidya Jyothi Institute of Technology
+                    </td>
+
+                    <td>
+                        Computer Science and Engineering (CSE)
+                    </td>
+
+                    <td>
+                        Currently Pursuing – 3rd Year
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- CERTIFICATIONS & ACHIEVEMENTS -->
+
+    <section id="certifications">
+
+        <h2>Certifications & Achievements</h2>
+
+        <div class="certification-container">
+
+
+            <!-- ACHIEVEMENT 1 -->
+
+            <article class="certification-card">
+
+                <div class="certificate-icon">
+                    🏆
                 </div>
 
 
-                <div class="form-group">
+                <div class="certificate-content">
 
-                    <label for="email">Email</label>
-
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        required>
-
-                </div>
+                    <h3>
+                        School-Level Essay Competitions
+                    </h3>
 
 
-                <div class="form-group">
+                    <p>
+                        Received multiple certificates and
+                        recognitions for participation and
+                        achievements in essay competitions
+                        conducted at the school level.
+                    </p>
 
-                    <label>Gender</label>
 
-                    <div class="gender-options">
+                    <span class="certificate-type">
+                        Academic Achievement
+                    </span>
 
-                        <label>
-                            <input
-                                type="radio"
-                                name="gender"
-                                value="Male"
-                                required>
-                            <span>Male</span>
-                        </label>
 
-                        <label>
-                            <input
-                                type="radio"
-                                name="gender"
-                                value="Female">
-                            <span>Female</span>
-                        </label>
+                    <br><br>
 
-                    </div>
+
+                    <a href="images/certificates/essay-certificate.jpg"
+                       target="_blank"
+                       class="certificate-button">
+
+                        View Certificate
+
+                    </a>
 
                 </div>
 
+            </article>
 
-                <div class="form-group">
 
-                    <label for="message">Message</label>
+            <!-- ACHIEVEMENT 2 -->
 
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="6"
-                        placeholder="Write your message here..."
-                        required></textarea>
+            <article class="certification-card">
 
+                <div class="certificate-icon">
+                    🥇
                 </div>
 
 
-                <button type="submit">
-                    Send Message
-                </button>
+                <div class="certificate-content">
 
-            </form>
+                    <h3>
+                        Regional-Level Best Commander Award
+                    </h3>
+
+
+                    <p>
+                        Received the Best Commander Award at
+                        the regional level for leadership,
+                        discipline, and active participation
+                        in VLC activities conducted during
+                        the COVID-19 period.
+                    </p>
+
+
+                    <span class="certificate-type">
+                        Leadership Achievement
+                    </span>
+
+
+                    <br><br>
+
+
+                    <a href="images/certificates/best-commander.jpg"
+                       target="_blank"
+                       class="certificate-button">
+
+                        View Certificate
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CERTIFICATION 3 -->
+
+            <article class="certification-card">
+
+                <div class="certificate-icon">
+                    🖥️
+                </div>
+
+
+                <div class="certificate-content">
+
+                    <h3>
+                        Red Hat Certificate
+                    </h3>
+
+
+                    <p>
+                        Successfully completed a Red Hat
+                        Academy certification/course and
+                        gained foundational knowledge of
+                        Linux fundamentals and command-line
+                        operations.
+                    </p>
+
+
+                    <span class="certificate-type">
+                        Technical Certification
+                    </span>
+
+
+                    <br><br>
+
+
+                    <a href="images/certificates/redhat-certificate.jpg"
+                       target="_blank"
+                       class="certificate-button">
+
+                        View Certificate
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- ACHIEVEMENT 4 -->
+
+            <article class="certification-card">
+
+                <div class="certificate-icon">
+                    💡
+                </div>
+
+
+                <div class="certificate-content">
+
+                    <h3>
+                        1st Prize – Hackathon
+                    </h3>
+
+
+                    <p>
+                        Secured First Prize in a hackathon
+                        conducted at Sreenidhi Institute as
+                        a member of
+                        <strong>Team HackHorizon</strong>.
+                        The achievement demonstrates
+                        teamwork, innovation, problem-solving,
+                        and technical skills.
+                    </p>
+
+
+                    <span class="certificate-type">
+                        Hackathon Achievement
+                    </span>
+
+
+                    <br><br>
+
+
+                    <a href="images/certificates/hackathon-certificate.jpg"
+                       target="_blank"
+                       class="certificate-button">
+
+                        View Certificate
+
+                    </a>
+
+                </div>
+
+            </article>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
 
-            
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <img src="images/projects/student-management.png"
+                 alt="Student Management System">
+
+
+            <h3>
+                Student Management System
+            </h3>
+
+
+            <p>
+                A database-oriented application designed
+                to efficiently store, organize, and manage
+                student information.
+            </p>
+
+
+            <p>
+                The system provides CRUD operations such as
+                adding, viewing, updating, and deleting
+                student records. It uses PHP for backend
+                processing and MySQL for database management.
+            </p>
+
+
+            <p>
+
+                <strong>Technologies:</strong>
+
+                HTML5, CSS3, JavaScript, PHP,
+                MySQL, XAMPP
+
+            </p>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <img src="images/projects/file-transfer.png"
+                 alt="File Transfer System Using TCP">
+
+
+            <h3>
+                File Transfer System Using TCP
+            </h3>
+
+
+            <p>
+                A computer networking project designed to
+                transfer files between a client and server
+                using TCP socket communication.
+            </p>
+
+
+            <p>
+                The system demonstrates client-server
+                communication, reliable data transmission,
+                socket programming, file handling, and
+                connection error management.
+            </p>
+
+
+            <p>
+
+                <strong>Technologies:</strong>
+
+                Python, TCP/IP, Socket Programming, VS Code
+
+            </p>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <img src="images/projects/crop-recommendation.png"
+                 alt="Crop Recommendation System">
+
+
+            <h3>
+                Crop Recommendation System
+            </h3>
+
+
+            <p>
+                A machine-learning-based system designed to
+                recommend suitable crops based on soil and
+                environmental parameters.
+            </p>
+
+
+            <p>
+                The system analyzes parameters such as
+                nitrogen, phosphorus, potassium, temperature,
+                humidity, pH value, and rainfall to generate
+                suitable crop recommendations.
+            </p>
+
+
+            <p>
+
+                <strong>Technologies:</strong>
+
+                Python, Machine Learning, Flask,
+                HTML5, CSS3, JavaScript
+
+            </p>
+
+        </article>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+
+        <div class="contact-container">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info">
+
+                <h3>
+                    Let's Connect
+                </h3>
+
+
+                <p>
+                    I would love to hear from you. Whether you
+                    have a question, project idea, or internship
+                    opportunity, feel free to contact me.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <p>
+
+                        <strong>Email:</strong>
+
+                        kampelliakshitha19@gmail.com
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Phone:</strong>
+
+                        +91 7396930311
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>Location:</strong>
+
+                        Telangana, India
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form">
+
+                <form id="contactForm">
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+
+                    <!-- GENDER -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Gender
+                        </label>
+
+
+                        <div class="gender-options">
+
+
+                            <label>
+
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Male"
+                                    required>
+
+                                <span>
+                                    Male
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Female">
+
+                                <span>
+                                    Female
+                                </span>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MESSAGE -->
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <!-- SUBMIT -->
+
+                    <button type="submit">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!-- FOOTER -->
@@ -463,8 +824,10 @@
 
     </footer>
 
-<script src="js/script.js?v=2"></script>
 
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js?v=2"></script>
 
 </body>
 
